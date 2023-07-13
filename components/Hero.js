@@ -22,14 +22,14 @@ const Hero = () => {
                         </div>
                         <div className="hero__content">
                             <h4 className="section__sub-title">
-                                Creative Digital Agency
+                            CloudGate Technologies
                             </h4>
-                            <h2 className="hero__title">
-                                <span>We build creative</span>
-                                websites & apps
-                            </h2>  
-                            <p>The carbon in our apple pies extraordinary claims require extraord evidence permanence of the stars energy.</p>                              
-                            <Link href="/contact">
+                            <h4 className="hero__title">
+                                <span>Ultimate Gateway </span>
+                                To The Cloud 
+                            </h4>  
+                            <p>Welcome to CloudGate Technologies, your ultimate gateway to the cloud and a world of infinite possibilities. As a leading provider of cutting-edge cloud solutions, we are here to unlock the true potential of cloud solutions by seamlessly connection to the boundless power of the cloud.</p>
+                            <Link href="#contact">
                                 <a className="m-btn mt-35">Get Started</a>
                             </Link>
                         </div>

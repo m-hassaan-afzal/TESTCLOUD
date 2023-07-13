@@ -30,7 +30,7 @@ const Modal = ({showModal, setShowModal}) => {
             {showModal ? (
             <div className="modal" ref={modalRef} onClick={closeModal}>
                 <div className="modal-video">
-                    <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' controls={true} width='100%' height='100%'/>
+                    <ReactPlayer url='#' controls={true} width='100%' height='100%'/>
                 <button onClick={()=>setShowModal(prev=>!prev)} className="modal-close"><i className="fas fa-times"></i></button>
                 </div>
             </div>

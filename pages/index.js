@@ -15,22 +15,22 @@ import Footer from "../components/Footer";
 
 const HomeOne = () => {
   return (
-    <Layout pageTitle="Maxdi | Business & Digital Agency">
-      <Header heroLogo="/assets/images/logo/logo.svg"
+    <Layout pageTitle="CloudGate Technologies">
+      <Header heroLogo="/assets/images/logo/logo2.png"
       />      
       <main>
         <Hero/>      
         <About subTitle="About Us"
-        titleFirst="We are here to make your"
-        titleSecond="product look more elegant and stylish"
+        titleFirst="We are your trusted partner"
+        titleSecond=" in the digital transformation journey"
         />   
         <Services extraClass="mt-75"/>      
         <Facts/>      
-        <Portfolio/>      
+        {/* <Portfolio/>       */}
         <Experience/>      
-        <Testimonial testimonialArea="testimonials__area" paddingTop="pt-120"/>      
+        {/* <Testimonial testimonialArea="testimonials__area" paddingTop="pt-120"/>       */}
         <Faq/>      
-        <BlogHome extraClass="pt-60"/>      
+        {/* <BlogHome extraClass="pt-60"/>       */}
         <LetsWork/>
       </main> 
       <Footer/>     

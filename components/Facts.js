@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle';
 
 const Facts = () => {
     return (
-        <section className="facts__area fix p-relative pt-120 pb-120 facts__pb">
+        <section id="fact" className="facts__area fix p-relative pt-120 pb-120 facts__pb">
                 <Container>
                     <Row>
                         <Col xxl={6} xl={5} lg={5} md={8} sm={10}>
@@ -26,12 +26,12 @@ const Facts = () => {
                             <div className="facts__content">
                                 <div className="facts__content-text">
                                     <SectionTitle subTitle="Facts To Know"
-                                    titleFirst="Our project will help"
-                                    titleSecond="you standout"
+                                    titleFirst="Breach less security"
+                                    titleSecond=""
                                     />                                    
-                                    <p>The carbon in our apple pies extraordinary claims require extraord evidence permanence of the stars kindling the energy hidden in matter from which we spring emerged.</p>
+                                    <p>Speaking of security, we are proud to declare that our defenses have stood tall against the relentless onslaught of potential breaches for three glorious years. Our commitment to safeguarding our users data is unwavering. Through tireless vigilance and the implementation of state-of-the-art security measures, we have ensured that not a single intrusion has tarnished the sanctity of our digital domain.</p>
                                 </div>
-                                <div className="facts__counter-content d-flex">
+                                {/* <div className="facts__counter-content d-flex">
                                     <div className="facts__counter-text">
                                         <h2>
                                             <CountUp end={2} duration={5} />K
@@ -46,7 +46,7 @@ const Facts = () => {
                                         <h5>Total Revinue</h5>
                                         <p>The carbon in our appies event not nosunrise.</p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </Col>
                     </Row>

@@ -15,8 +15,8 @@ const Contact = () => {
                                     </div>
                                     <div className="contact__info-title">                                        
                                         <h5>Office Address</h5>
-                                        <p>66 Broklyn Street, New York
-                                            United States of America</p>
+                                        <p>Plot number 23, Bahria Greens Sector 1 
+                                            Bahria Greens,Rawalpindi, pakistan</p>
                                     </div>
                                 </div>
                                 <div className="contact__info-content d-flex mb-30">
@@ -26,13 +26,8 @@ const Contact = () => {
                                     <div className="contact__info-title">
                                         <h5>Phone</h5>
                                         <p>
-                                            <Link href="tel:+0066442211">
-                                                <a>+00 66 44 22 11</a>
-                                            </Link>
-                                        </p>
-                                        <p>
-                                            <Link href="tel:+0066442211">
-                                                <a>+00 66 44 22 11</a>
+                                            <Link href="tel:+0516142226">
+                                                <a>+051 6142226</a>
                                             </Link>
                                         </p>
                                     </div>
@@ -44,13 +39,8 @@ const Contact = () => {
                                     <div className="contact__info-title">
                                         <h5>Email us</h5>
                                         <p>
-                                            <Link href="mailto:info@example.com">
-                                                <a>info@example.com</a>
-                                            </Link>
-                                        </p>
-                                        <p>
-                                            <Link href="mailto:info@example.com">
-                                                <a>info@example.com</a>
+                                            <Link href="mailto:info@cloudgatetechnologies.com">
+                                                <a>info@cloudgatetechnologies.com</a>
                                             </Link>
                                         </p>
                                     </div>

@@ -121,7 +121,7 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #1d233a;
+  color: #001339;
   margin: 0px;
   margin-bottom: 10px;
 }
@@ -145,19 +145,19 @@ p {
 }
 
 *::-moz-selection {
-  background: #7432ff;
+  background: #0c5eff;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #7432ff;
+  background: #0c5eff;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #7432ff;
+  background: #0c5eff;
   color: #ffffff;
   text-shadow: none;
 }
@@ -249,7 +249,7 @@ textarea {
   font-size: 60px;
   line-height: 72px;
   margin-bottom: 28px;
-  color: #1d233a;
+  color: #001339;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero__title {
@@ -293,7 +293,7 @@ textarea {
 
 .section__sub-title {
   font-size: 20px;
-  color: #7432ff;
+  color: #0c5eff;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -306,7 +306,7 @@ textarea {
   font-size: 50px;
   line-height: 60px;
   margin-bottom: 28px;
-  color: #1d233a;
+  color: #001339;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section__title {
@@ -360,7 +360,7 @@ textarea {
   text-align: center;
   padding: 15px 35px;
   display: inline-block;
-  background: #7432ff;
+  background: #0c5eff;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -397,7 +397,7 @@ textarea {
   -o-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .m-btn:hover {
-  background: #1d233a;
+  background: #001339;
   color: #c5f617;
 }
 .m-btn:hover::before {
@@ -429,7 +429,7 @@ textarea {
   font-weight: 500;
   color: #b3b8d5;
   padding: 15px 45px;
-  background: #1d233a;
+  background: #001339;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -447,20 +447,20 @@ textarea {
   overflow: hidden;
 }
 .s-btn:hover {
-  background: #2b2a5b;
-  color: #b499ff;
+  background: #0b2d70;/*#2b2a5b;*/
+  color: #ffffff;
 }
 .s-btn-pink {
   background: #b19cff;
-  color: #1d233a;
+  color: #001339;
 }
 .s-btn-yellow {
   background: #f2dac0;
-  color: #1d233a;
+  color: #001339;
 }
 .s-btn-green {
   background: #c2ea9b;
-  color: #1d233a;
+  color: #001339;
 }
 
 /*----------------------------------------*/
@@ -496,19 +496,19 @@ textarea {
   z-index: 99;
 }
 .header__area.sticky .main-menu-3 ul li a {
-  color: #1d233a;
+  color: #001339;
 }
 .header__area.sticky .main-menu-3 ul li:hover > a {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .header__area.sticky .main-menu-3 .header__right .m-btn {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .header__area.sticky .main-menu-3 .header__right .m-btn:hover {
-  background: #1d233a;
+  background: #001339;
 }
 .header__area-2.sticky {
-  background: #1d233a;
+  background: #001339;
 }
 .header__transparent {
   position: absolute;
@@ -525,10 +525,10 @@ textarea {
   color: #f2dac0;
 }
 .header__white .main-menu ul li .submenu li a {
-  color: #1d233a;
+  color: #001339;
 }
 .header__white .main-menu .header__right .m-btn {
-  background: #1d233a;
+  background: #001339;
 }
 .header__right {
   padding-top: 10px;
@@ -547,7 +547,7 @@ textarea {
 }
 .header__right .m-btn:hover {
   color: #f2dac0;
-  background: #7432ff;
+  background: #0c5eff;
 }
 
 /* main-menu */
@@ -562,7 +562,7 @@ textarea {
   -o-transition: all 0.3s ease-in-out;
 }
 .main-menu ul li a {
-  color: #1d233a;
+  color: #001339;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -573,7 +573,7 @@ textarea {
   cursor: pointer;
 }
 .main-menu ul li a:hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .main-menu ul li .submenu {
   position: absolute;
@@ -627,14 +627,14 @@ textarea {
   left: auto;
   right: 0;
   transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
-  background: #7432ff;
+  background: #0c5eff;
   -webkit-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   -moz-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   -ms-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   -o-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
 }
 .main-menu ul li .submenu li:hover a {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .main-menu ul li .submenu li:hover a::before {
   width: 100%;
@@ -650,7 +650,7 @@ textarea {
   color: #ffffff;
 }
 .main-menu-2 ul li .submenu {
-  background: #232745;
+  background: #0b2d70;
 }
 
 /* sidebar */
@@ -673,7 +673,7 @@ textarea {
   margin-bottom: 0px;
 }
 .sidebar__contact ul li i {
-  color: #8b61ff;
+  color: #91ace2;
   vertical-align: middle;
   width: 25px;
   display: inline-block;
@@ -689,8 +689,8 @@ textarea {
   font-size: 14px;
   display: inline-block;
   margin-right: 10px;
-  background: #2b2a5b;
-  color: #ffffff;
+  background: #e1ebff ;
+  color: #001339;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -707,7 +707,7 @@ textarea {
   left: 0px;
   height: 100%;
   width: 0%;
-  background: #7432ff;
+  background: #0c5eff;
   z-index: -1;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -732,7 +732,7 @@ textarea {
   background: #fffef2;
 }
 .hero__area-2 {
-  background: #1d233a;
+  background: #001339;
   padding-bottom: 140px;
 }
 .hero__height {
@@ -1250,7 +1250,7 @@ textarea {
   color: #ffffff;
 }
 .hero__content-2 .hero__title-2 span::after {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .hero__content-2 p {
   color: #ffffff;
@@ -1268,7 +1268,7 @@ textarea {
 }
 .hero__content-2 .m-btn:hover {
   color: #f2dac0;
-  background: #7432ff;
+  background: #0c5eff;
 }
 .hero__thumb {
   padding-top: 135px;
@@ -1487,7 +1487,7 @@ textarea {
   left: 4%;
   height: 776px;
   width: 776px;
-  background: #232745;
+  background: #0b2d70;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1767,7 +1767,7 @@ textarea {
   position: absolute;
   right: 16%;
   bottom: 5%;
-  background: #7432ff;
+  background: #0b2d70;
   width: 811px;
   height: 207px;
   z-index: 3;
@@ -1888,7 +1888,7 @@ textarea {
 /*  05. Services CSS
 /*----------------------------------------*/
 .services__area {
-  background: #1d233a;
+  background: #001339;
 }
 .services__shape img {
   position: absolute;
@@ -1926,7 +1926,7 @@ textarea {
   color: #ffffff;
 }
 .services__title .section__title span::after {
-  background: #7432ff;
+  background: #0c5eff;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .services__details {
@@ -2070,7 +2070,7 @@ textarea {
 }
 
 .single__bg {
-  background: #232745;
+  background: #0b2d70;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -2085,7 +2085,7 @@ textarea {
   -o-transition: all 0.3s ease-in-out;
 }
 .single__bg:hover {
-  background: #23234c;
+  background: #0f2858;
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
@@ -2171,7 +2171,7 @@ textarea {
   left: 0;
   width: 40px;
   height: 40px;
-  background: #7432ff;
+  background: #0c5eff;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -2200,7 +2200,7 @@ textarea {
   margin-bottom: 40px;
 }
 .single__service-content-2 h3 {
-  color: #1d233a;
+  color: #001339;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single__service-content-2 h3 {
@@ -2247,7 +2247,7 @@ textarea {
 }
 .key__factors-icon i {
   font-size: 30px;
-  color: #7432ff;
+  color: #0c5eff;
   padding-left: 15px;
 }
 @media (max-width: 575px) {
@@ -2695,7 +2695,7 @@ textarea {
   content: "";
   width: 1308px;
   height: 338px;
-  background: #7432ff;
+  background: #0c5eff;
   left: 0;
   border-radius: 0 164px 20px 0;
   -webkit-border-radius: 0 164px 20px 0;
@@ -2793,10 +2793,10 @@ textarea {
   justify-content: center;
 }
 .portfolio__menu-2 li .nav-link {
-  color: #1d233a;
+  color: #001339;
 }
 .portfolio__menu-2 li .nav-link:hover, .portfolio__menu-2 li .nav-link.active {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .portfolio__item {
   position: relative;
@@ -2890,7 +2890,7 @@ textarea {
   -o-border-radius: 50%;
 }
 .portfolio__link a:hover {
-  background: #7432ff;
+  background: #0c5eff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
   .portfolio__link a {
@@ -2935,11 +2935,11 @@ textarea {
 .portfolio__text h3 {
   font-size: 24px;
   font-weight: 600;
-  color: #1d233a;
+  color: #001339;
   margin-top: 7px;
 }
 .portfolio__text h3 :hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .portfolio__text h3 {
@@ -2967,7 +2967,7 @@ textarea {
   }
 }
 .portfolio__text-2 h3:hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .portfolio__details-shape img {
   position: absolute;
@@ -3133,13 +3133,13 @@ textarea {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  background: #1d233a;
+  background: #001339;
 }
 .values__content-icon i.blue {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .values__content-icon i.green {
-  color: #1d233a;
+  color: #001339;
   background: #c5f617;
 }
 .values__content-text h3 {
@@ -3208,7 +3208,7 @@ textarea {
   width: 60px;
   top: 18px;
   right: -80px;
-  background: #1d233a;
+  background: #001339;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .sidebar__content-heading::before {
@@ -3246,7 +3246,7 @@ textarea {
 /*  08. Experience CSS
 /*----------------------------------------*/
 .experience__area {
-  background: #1d233a;
+  background: #001339;
 }
 .experience__shape img {
   position: absolute;
@@ -3364,13 +3364,13 @@ textarea {
   color: #ffffff;
 }
 .experience__content .section__title span::after {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .experience__content p {
   color: #ffffff;
 }
 .experience__content .m-btn:hover {
-  background: #7432ff;
+  background: #0c5eff;
   color: #f2dac0;
 }
 .experience__video-btn {
@@ -3423,7 +3423,7 @@ textarea {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   font-size: 25px;
-  color: #7432ff;
+  color: #0c5eff;
   position: relative;
   z-index: 2;
   cursor: pointer;
@@ -3676,7 +3676,7 @@ textarea {
   max-width: 75px;
 }
 .testimonials__client-text h4 {
-  color: #7432ff;
+  color: #0c5eff;
   font-size: 20px;
   margin-bottom: 7px;
 }
@@ -3711,7 +3711,7 @@ textarea {
   opacity: 1;
 }
 .swiper-pagination-bullet-active {
-  background: #7432ff;
+  background: #0c5eff;
   width: 32px;
   border-radius: 5px;
 }
@@ -3854,7 +3854,7 @@ textarea {
   left: -24px;
   height: 325px;
   width: 534px;
-  background: #c5f617;
+  background: #e1ebff;
   border-radius: 170px 40px 40px 40px;
   -webkit-border-radius: 170px 40px 40px 40px;
   -moz-border-radius: 170px 40px 40px 40px;
@@ -3905,7 +3905,7 @@ textarea {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  background: #7432ff;
+  background: #0c5eff;
   position: relative;
   margin-top: 45px;
 }
@@ -4228,12 +4228,12 @@ textarea {
   left: 116%;
 }
 .blog__link .arrow-btn {
-  color: #1d233a;
+  color: #001339;
   position: relative;
   cursor: pointer;
 }
 .blog__link .arrow-btn:hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .blog__link-single {
   margin-top: 20px;
@@ -4439,7 +4439,7 @@ textarea {
   content: "";
   left: 0;
   top: 0;
-  background: #1d233a;
+  background: #001339;
   opacity: 0.8;
   z-index: 2;
   height: 100%;
@@ -4455,7 +4455,7 @@ textarea {
   content: "";
   left: 12px;
   top: 10px;
-  background: #7432ff;
+  background: #0c5eff;
   opacity: 0.8;
   z-index: 1;
   height: 100%;
@@ -4612,7 +4612,7 @@ textarea {
 }
 .sidebar__widget-title h3 {
   font-size: 22px;
-  color: #7432ff;
+  color: #0c5eff;
   position: relative;
   display: inline-block;
 }
@@ -4622,7 +4622,7 @@ textarea {
   left: 0;
   bottom: -7px;
   width: 100%;
-  border-bottom: 1px solid #7432ff;
+  border-bottom: 1px solid #0c5eff;
 }
 .sidebar__widget-link ul li:not(:last-child) {
   margin-bottom: 35px;
@@ -4654,7 +4654,7 @@ textarea {
   font-weight: 700;
 }
 .sidebar__widget-link ul li a:hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .sidebar__widget-link ul li a:hover::after {
   opacity: 1;
@@ -4687,7 +4687,7 @@ textarea {
 }
 .sidebar__widget-search {
   position: relative;
-  background: #1d233a;
+  background: #001339;
   padding: 38px 34px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -4718,7 +4718,7 @@ textarea {
   line-height: 48px;
   font-size: 17px;
   color: #ffffff;
-  background: #7432ff;
+  background: #0c5eff;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -4742,7 +4742,7 @@ textarea {
   -o-border-radius: 5px;
 }
 .sidebar__widget-tags a:hover {
-  background: #7432ff;
+  background: #0c5eff;
   color: #ffffff;
 }
 .sidebar__rc ul li:not(:last-child) {
@@ -4802,7 +4802,7 @@ textarea {
   font-weight: 600;
 }
 .sidebar__rc-content h5 a:hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .sidebar__rc-meta span {
   font-size: 14px;
@@ -4813,7 +4813,7 @@ textarea {
 }
 
 .post__author {
-  background: #1d233a;
+  background: #001339;
   padding: 40px 50px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -4887,7 +4887,7 @@ textarea {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: #7432ff;
+  color: #0c5eff;
   margin-bottom: 14px;
 }
 .post__author-content p {
@@ -4948,7 +4948,7 @@ textarea {
   }
 }
 .post__author-social a:hover {
-  border-color: #7432ff;
+  border-color: #0c5eff;
 }
 .post__comment {
   margin-bottom: 23px;
@@ -5021,7 +5021,7 @@ textarea {
 }
 .comment__box a {
   text-transform: uppercase;
-  color: #7432ff;
+  color: #0c5eff;
   margin-top: 20px;
   font-weight: 600;
   position: relative;
@@ -5201,7 +5201,7 @@ textarea {
 /*  13. Footer CSS
 /*----------------------------------------*/
 .footer__area {
-  background: #1d233a;
+  background: #001339;
 }
 .footer__area::before {
   position: absolute;
@@ -5238,7 +5238,7 @@ textarea {
   color: #ffffff;
 }
 .footer__newsletter .section__title span::after {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .footer__subscribe {
   padding-top: 40px;
@@ -5377,8 +5377,8 @@ textarea {
 .footer__widget-social a {
   font-size: 16px;
   margin-right: 30px;
-  background: #7432ff;
-  color: #ffffff;
+  background: #e1ebff /*#0c5eff*/;
+  color: #090909;
   display: inline-block;
   width: 38px;
   height: 38px;
@@ -5400,7 +5400,7 @@ textarea {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #7432ff;
+  color: #91ace2;/* #0c5eff;*/
   display: inline-block;
   position: relative;
 }
@@ -5410,7 +5410,7 @@ textarea {
   left: 0;
   bottom: -5px;
   width: 50px;
-  border-bottom: 1px solid #7432ff;
+  border-bottom: 1px solid #e1ebff /*#0c5eff*/;
 }
 .footer__widget-link ul li {
   margin-bottom: 20px;
@@ -5456,7 +5456,7 @@ textarea {
 .footer__widget-phone i {
   font-size: 18px;
   padding-right: 15px;
-  color: #c5f617;
+  color: #91ace2;
 }
 .footer__widget-phone p {
   color: #ffffff;
@@ -5465,7 +5465,7 @@ textarea {
 .footer__widget-email i {
   font-size: 18px;
   padding-right: 15px;
-  color: #7432ff;
+  color: #e1ebff;
 }
 .footer__widget-email p {
   color: #ffffff;
@@ -5479,12 +5479,12 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 .footer__copyright p a {
-  color: #c5f617;
+  color: #91ace2;
   font-weight: 500;
   padding-left: 5px;
 }
 .footer__copyright p a:hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 
 /*----------------------------------------*/
@@ -5698,7 +5698,7 @@ textarea {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background: #1d233a;
+  background: #001339;
   opacity: 0.8;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5749,7 +5749,7 @@ textarea {
   }
 }
 .maxdi__counter-content-2::before {
-  background: #7432ff;
+  background: #0c5eff;
   opacity: 0.9;
 }
 .maxdi__counter-2 {
@@ -5815,7 +5815,7 @@ textarea {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background: #1d233a;
+  background: #001339;
   opacity: 0.9;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -5980,7 +5980,7 @@ textarea {
   height: 578px;
   left: 0;
   top: 28.7%;
-  background: #7432ff;
+  background: #0c5eff;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .project__area::before {
@@ -6375,7 +6375,7 @@ textarea {
   content: "";
   width: 1027px;
   height: 432px;
-  background: #1d233a;
+  background: #001339;
   right: 0;
   border-radius: 20px 0 0 132px;
   -webkit-border-radius: 20px 0 0 132px;
@@ -6453,17 +6453,17 @@ textarea {
   color: #ffffff;
 }
 .project__title .section__title span::after {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .project__title-2 .section__sub-title {
-  color: #7432ff;
+  color: #0c5eff;
 }
 .project__title p {
   color: #ffffff;
 }
 .project__title .m-btn:hover {
   color: #f2dac0;
-  background: #7432ff;
+  background: #0c5eff;
 }
 
 /*----------------------------------------*/
@@ -6551,7 +6551,7 @@ textarea {
 /*  17. Pricing CSS
 /*----------------------------------------*/
 .pricing__area {
-  background: #1d233a;
+  background: #001339;
 }
 .pricing__shape img {
   position: absolute;
@@ -6712,7 +6712,7 @@ textarea {
   color: #ffffff;
 }
 .pricing__title .section__title span::after {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .pricing__title P {
   color: #ffffff;
@@ -6744,7 +6744,7 @@ textarea {
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   padding: 8px;
-  background: #7432ff;
+  background: #0c5eff;
   border: none;
 }
 .pricing__nav li {
@@ -6755,7 +6755,7 @@ textarea {
   font-weight: 600;
   padding: 15px 40px;
   line-height: 1;
-  color: #1d233a;
+  color: #001339;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -6766,14 +6766,14 @@ textarea {
   margin-bottom: 0;
 }
 .pricing__nav li .nav-link.active {
-  background: #1d233a;
+  background: #001339;
   color: #ffffff;
 }
 .pricing__nav li .nav-link:hover, .nav-link:focus {
   color: #f2dac0;
 }
 .pricing__box {
-  background: #232745;
+  background: #0b2d70;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -6803,35 +6803,35 @@ textarea {
   }
 }
 .pricing__box:hover {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .pricing__box:hover .pricing__amount h2 {
-  color: #1d233a;
+  color: #001339;
 }
 .pricing__box:hover .pricing__amount::before {
-  border-color: #1d233a;
+  border-color: #001339;
   width: 100%;
 }
 .pricing__box:hover .pricing__item ul li::after {
-  color: #1d233a;
+  color: #001339;
 }
 .pricing__box:hover .pricing__link .m-btn {
-  background: #1d233a;
+  background: #001339;
 }
 .pricing__box.active {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .pricing__box.active .pricing__amount h2 {
-  color: #1d233a;
+  color: #001339;
 }
 .pricing__box.active .pricing__amount::before {
-  border-color: #1d233a;
+  border-color: #001339;
 }
 .pricing__box.active .pricing__item ul li::after {
-  color: #1d233a;
+  color: #001339;
 }
 .pricing__box.active .pricing__link .m-btn {
-  background: #1d233a;
+  background: #001339;
 }
 .pricing__header {
   margin-bottom: 20px;
@@ -6863,7 +6863,7 @@ textarea {
   right: 0;
   left: 0;
   bottom: -30%;
-  border-bottom: 2px solid #7432ff;
+  border-bottom: 2px solid #0c5eff;
   width: 30%;
   transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
@@ -6873,7 +6873,7 @@ textarea {
 }
 .pricing__amount h2 {
   font-size: 50px;
-  color: #7432ff;
+  color: #0c5eff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pricing__amount h2 {
@@ -6918,7 +6918,7 @@ textarea {
   font-family: "Font Awesome 6 Free";
   font-size: 18px;
   font-weight: 900;
-  color: #7432ff;
+  color: #0c5eff;
   left: 0;
   top: 1px;
 }
@@ -6930,7 +6930,7 @@ textarea {
 /*  18. Page-title CSS
 /*----------------------------------------*/
 .page__title-area {
-  background: #7432ff;
+  background: #0c5eff;
 }
 .page__title-height {
   min-height: 640px;
@@ -7119,7 +7119,7 @@ textarea {
   color: #f2dac0;
 }
 .breadcrumb-item a:hover {
-  color: #1d233a;
+  color: #001339;
 }
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 10px;
@@ -7376,7 +7376,7 @@ textarea {
   content: "";
   left: 0;
   top: 0;
-  background: #7432ff;
+  background: #0c5eff;
   opacity: 0.8;
   z-index: 1;
   height: 100%;
@@ -7392,7 +7392,7 @@ textarea {
   content: "";
   left: 0;
   top: -13px;
-  background: #7432ff;
+  background: #0c5eff;
   opacity: 0.8;
   z-index: 1;
   height: 100%;
@@ -7517,7 +7517,7 @@ textarea {
   content: "";
   left: 0;
   top: 0;
-  background: #7432ff;
+  background: #0c5eff;
   opacity: 0.8;
   z-index: 1;
   height: 100%;
@@ -7533,7 +7533,7 @@ textarea {
   content: "";
   left: -50px;
   top: -37px;
-  background: #7432ff;
+  background: #0c5eff;
   opacity: 0.8;
   z-index: 1;
   height: 108px;
@@ -7694,7 +7694,7 @@ textarea {
 }
 .team__details-counter-item p {
   font-size: 18px;
-  color: #7432ff;
+  color: #0c5eff;
   font-weight: 600;
   padding-right: 0;
   margin-bottom: 0;
@@ -7764,7 +7764,7 @@ textarea {
   content: "";
   left: 0;
   top: 0;
-  background: #1d233a;
+  background: #001339;
   z-index: 1;
   opacity: 0.9;
   width: 100%;
@@ -7798,7 +7798,7 @@ textarea {
   content: "";
   left: 40px;
   top: 40px;
-  background: #7432ff;
+  background: #0c5eff;
   opacity: 0.9;
   width: 100%;
   height: 100%;
@@ -7850,7 +7850,7 @@ textarea {
   left: 0;
   bottom: -7px;
   width: 100%;
-  border-bottom: 1px solid #7432ff;
+  border-bottom: 1px solid #0c5eff;
 }
 .contact__info-title p {
   color: #ffffff;
@@ -7862,7 +7862,7 @@ textarea {
   color: #c5f617;
 }
 .contact__info-icon i.blue {
-  color: #7432ff;
+  color: #0c5eff;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .contact__title {

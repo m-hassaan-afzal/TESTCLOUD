@@ -12,7 +12,7 @@ const Footer = () => {
                     <img className="footer-shape-2" src="/assets/images/shape/footer/footer-s-2.png" alt=""/>
                 </div>
                 <Container>
-                    <Row className="mb-145">
+                    {/* <Row className="mb-145">
                         <Col xxl={6} xl={7} lg={8} md={10}>
                             <div className="footer__newsletter">
                                 <SectionTitle subTitle="Join Our Community"
@@ -32,13 +32,13 @@ const Footer = () => {
                                 </form>                               
                             </div> 
                         </Col>
-                    </Row>
+                    </Row> */}
                     <Row className="mb-50">
                         <Col xl={4} lg={4} md={10} sm={10}>
                             <div className="footer__widget wow fadeIn" data-wow-delay=".5s">
                                 <div className="footer__widget-logo">
-                                    <img src="assets/images/logo/Logo-footer.svg" alt="logo"/>
-                                    <p>Core object made kolor adipisci elit sed diam nonummy nibh euismod tincidunt laoreet dolore magna grinjon.</p>
+                                    <img src="assets/images/logo/footerlogo.png" alt="logo"/>
+                                    <p>your ultimate gateway to the cloud and a world of infinite possibilities.</p>
                                 </div>
                                 <div className="footer__widget-social">
                                     <Link href="#">
@@ -64,28 +64,23 @@ const Footer = () => {
                                 <div className="footer__widget-link">
                                     <ul>
                                         <li>
-                                            <Link href="/services-details">
-                                                <a>Development</a>
+                                            <Link href="#service">
+                                                <a>Cloud Solution</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details">
-                                                <a>marketing</a>  
+                                            <Link href="#service">
+                                                <a>App Development</a>  
                                             </Link>                                          
                                         </li>
                                         <li>
-                                            <Link href="/services-details">
-                                                <a>UI/UX Design</a>
+                                            <Link href="#service">
+                                                <a>Unity Gaming</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details">
-                                                <a>E-commerce</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/services-details">
-                                                <a>Content Writing</a>
+                                            <Link href="#service">
+                                                <a>App Store Optimization (ASO)</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -100,27 +95,27 @@ const Footer = () => {
                                 <div className="footer__widget-link">
                                     <ul>
                                         <li>
-                                            <Link href="/about">
+                                            <Link href="#about">
                                                 <a>About us</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/portfolio">
-                                                <a>Portfolio</a>
+                                            <Link href="#fact">
+                                                <a>Facts</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/team">
-                                                <a>Our Team</a>
+                                            <Link href="#team">
+                                                <a>Teams</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact">
+                                            <Link href="#contact">
                                                 <a>Contact</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services">
+                                            <Link href="#services">
                                                 <a>Services</a>
                                             </Link>
                                         </li>
@@ -135,22 +130,22 @@ const Footer = () => {
                                 </div>
                                 <div className="footer__widget-info">
                                     <div className="footer__widget-address">
-                                        <p>66 Broklyn Street, New York
-                                            United States of America</p>
+                                        <p>Plot number 23, Bahria Greens 
+                                            Sector 1 Bahria Greens,Rawalpindi, pakistan</p>
                                     </div>
                                     <div className="footer__widget-phone d-flex align-items-center">
                                         <i className="fa-solid fa-phone"></i>
                                         <p>
-                                            <Link href="tel:+1166442200">
-                                                <a>+11 66 44 22 00</a>
+                                            <Link href="tel:+0516142226">
+                                                <a>+051 6142226</a>
                                             </Link>
                                         </p>
                                     </div>
                                     <div className="footer__widget-email d-flex align-items-center">
                                         <i className="fa-solid fa-paper-plane"></i>
                                         <p>
-                                            <Link href="mailto:info@example.com">
-                                                <a>info@example.com</a>
+                                            <Link href="mailto:info@cloudgatetechnologies.com">
+                                                <a>info@cloudgatetechnologies.com</a>
                                             </Link>
                                         </p>
                                     </div>
@@ -161,9 +156,9 @@ const Footer = () => {
                     <Row>
                         <Col xl={12}>
                             <div className="footer__copyright">
-                                <p>Copyright © 2022
-                                    <Link href="https://alimasha.net/">
-                                        <a>Alimasha</a>
+                                <p>Copyright © 2023
+                                    <Link href="#">
+                                        <a>CloudGate Technologies</a>
                                     </Link>
                                 </p>
                             </div>

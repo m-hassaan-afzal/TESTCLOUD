@@ -16,13 +16,13 @@ const NavMenu = () => {
                 <button className="dropdown" onClick={showActive}>
                 <i className="fa-solid fa-chevron-left"></i>
                 </button>
-                <ul className="submenu">
+                {/* <ul className="submenu">
                     <li><Link href="/"><a>Digital Agency</a></Link></li>
                     <li><Link href="index-2"><a>Creative Agency</a></Link></li>
-                </ul>                
+                </ul>                 */}
             </li>
-            <li><Link href="/about"><a>About</a></Link></li>
-            <li>
+            <li><Link href="#about"><a>About</a></Link></li>
+            {/* <li>
                 <Link href="/about">
                     <a>Pages</a>
                 </Link>
@@ -36,30 +36,40 @@ const NavMenu = () => {
                     <li><Link href="/team"><a>Team</a></Link></li>
                     <li><Link href="/single-team"><a>Team Details</a></Link></li>
                 </ul>
-            </li>
+            </li> */}
             <li>
-                <Link href="/services">                    
+                <Link href="#service">                    
                     <a>Services</a>
                 </Link>
-                <button className="dropdown" onClick={showActive}>
+                {/* <button className="dropdown" onClick={showActive}>
                 <i className="fa-solid fa-chevron-left"></i>
                 </button>                
                 <ul className="submenu">
                     <li><Link href="/services"><a>Services</a></Link></li>
                     <li><Link href="/services-details"><a>Services Details</a></Link></li>
-                </ul>
+                </ul> */}
             </li>
             <li>
-                <Link href="/portfolio">                    
-                    <a>Portfolio</a>
+                <Link href="#fact">                    
+                    <a>Facts</a>
                 </Link>
-                <button className="dropdown" onClick={showActive}>
+                {/* <button className="dropdown" onClick={showActive}>
                 <i className="fa-solid fa-chevron-left"></i>
                 </button>   
                 <ul className="submenu">
                     <li><Link href="/portfolio"><a>Portfolio</a></Link></li>
                     <li><Link href="/single-portfolio"><a>Portfolio Details</a></Link></li>
-                </ul>
+                </ul> */}
+            </li>
+            <li>
+                <Link href="#team">                    
+                    <a>Team</a>
+                </Link>
+            </li>
+            <li>
+                <Link href="#contact">                    
+                    <a>Contact</a>
+                </Link>
             </li>
         </ul>        
     );

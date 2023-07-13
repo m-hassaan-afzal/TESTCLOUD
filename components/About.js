@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle';
 
 const About = ({subTitle, titleFirst, titleSecond}) => {
     return (
-        <section className="about__area fix p-relative pt-120 pb-120 about__pb">
+        <section id="about" className="about__area fix p-relative pt-120 pb-120 about__pb">
             <Container>
                 <Row>                        
                     <Col xxl={7} xl={8} lg={10} md={10}>                            
@@ -31,12 +31,11 @@ const About = ({subTitle, titleFirst, titleSecond}) => {
                     </Col>
                     <Col xl={{ span: 5, offset: 1 }} lg={6}>                            
                         <div className="about__content">
-                            <p>Kindling the energy hidden in matter the only home we&apos;ve ever known radio telescope decipherment descended from astronomers rogue. Prime number network of wormholes take root.</p>
-                            <ul>
-                                <li>Sea of Tranquility dispassionate observer dream.</li>
-                                <li>Muse about as a patch of light brain is the seed of intelligence.</li>
-                                <li>The only home we`ve ever known dream of the mind`s eye.</li>
-                            </ul>
+                            <p>In the realm of cloud computing, where innovation and reliability intertwine, we are honored to share that Amazon Web Services has bestowed upon us an extraordinary bounty of generous credits. With this remarkable support, we have built an awe-inspiring digital kingdom that has become home to a staggering 450 million users.</p>
+                            {/* <ul> */}
+                                <p>Within the majestic walls of our cloud infrastructure, we have mastered the art of unrivaled speed and responsiveness. Our commitment to latency reduction has allowed us to create an immersive user experience where information is at your fingertips, instantaneously.</p>
+                                {/* <li>The only home we`ve ever known dream of the mind`s eye.</li> */}
+                            {/* </ul> */}
                         </div>
                         <div className="about__counter-bg d-none d-sm-block">
                         <div className="about__counter-content d-flex">

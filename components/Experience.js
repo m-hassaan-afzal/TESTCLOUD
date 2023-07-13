@@ -23,12 +23,13 @@ const Experience = ({extraClass}) => {
                     <Row className="align-items-center">
                         <Col xl={5} lg={6} md={9} sm={10}>
                             <div className="experience__content">
-                                <SectionTitle subTitle="25 Years Of Experience"
-                                titleFirst="Ready to get our" titleSecond="digital services?"/>
-                                <p>That&apos;s not on the roadmap losing these latest prospects is like putting socks on an octopus to give you a heads-up.</p>
-                                <Link href="/contact">
+                                <SectionTitle subTitle="FACTS TO KNOW"
+                                titleFirst="Providing software solutions" titleSecond=""/>
+                                <p>Software organizations can leverage our cloud storage gateway to effortlessly store and deploy their applications, enabling rapid scalability, enhanced performance, and simplified maintenance, all while reducing operational costs and maximizing productivity.</p>
+                                <p>Embrace the future of cloud computing with CloudGate Technologies and embark on a transformative journey organisations can thrive in the digital era. Join us as we open the gates to a world of limitless possibilities, where innovation and efficiency converge to redefine the way business is done. Step into the cloud and unlock the true potential of Cloud solutions Technologies.</p>
+                                {/* <Link href="/contact">
                                     <a className="m-btn mt-35">Start a Project</a>
-                                </Link>
+                                </Link> */}
                             </div> 
                         </Col>
                         <Col xl={7} lg={6} md={9}>

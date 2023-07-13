@@ -26,11 +26,11 @@
 
 
 .side-info nav.mobile-menu ul li a:hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 
 .side-info nav.mobile-menu ul li a:hover {
-  color: #7432ff;
+  color: #0c5eff;
 }
 
 
@@ -46,7 +46,7 @@
     right: 0;
 }
 .side-info nav.mobile-menu li button.dropdown.active  {
-    color: #7432ff;
+    color: #0c5eff;
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -96,7 +96,7 @@ ul li .dropdown  {
 }
 
 .side-info {
-  background: #1d233a;
+  background: #001339;
   width: 300px;
   height: 100%;
   position: fixed;

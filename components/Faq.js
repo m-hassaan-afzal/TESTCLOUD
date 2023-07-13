@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle';
 
 const Faq = () => {
     return (
-        <section className="faq__area fix p-relative pt-105 pb-60 faq__rs">
+        <section id="team" className="faq__area fix p-relative pt-105 pb-60 faq__rs">
                 <div className="faq__shape">
                     <img className="faq-shape-1 d-none d-lg-block" src="/assets/images/shape/faq/faq-s-1.png" alt=""/>
                     <img className="faq-shape-2" src="/assets/images/shape/faq/faq-s-2.png" alt=""/>
@@ -24,10 +24,12 @@ const Faq = () => {
                             </Col>
                             <Col xl={6} lg={7} md={10}>
                                 <div className="faq__content">
-                                    <SectionTitle subTitle="Faq"
-                                    titleFirst="Frequently asked" titleSecond="questions"
+                                    <SectionTitle subTitle="Team Strength"
+                                    titleFirst="We Belive In" titleSecond=""
                                     />                                     
-                                    <div className="faq__wrapper">
+                                    <p>CloudGate Technologies is your trusted partner in the digital transformation journey, offering a comprehensive suite of cloud products and services designed to revolutionize the way to store, manage, and access valuable data.</p>
+                                    <p>Any healthcare provider, educational institution, or a software organisation can use our cloud storage gateway as a key to unlocking unparalleled efficiency, security, and cost-effective cloud solutions</p>
+                                    {/* <div className="faq__wrapper">
                                         <Accordion defaultActiveKey="0" flush>
                                             <Accordion.Item eventKey="0">
                                                 <Accordion.Header>How To Gain Knowledge About SEO?</Accordion.Header>
@@ -62,7 +64,7 @@ const Faq = () => {
                                                 </Accordion.Body>
                                             </Accordion.Item>
                                         </Accordion>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </Col>                        
                         </Row>
