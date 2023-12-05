@@ -130,14 +130,14 @@ const Footer = () => {
                                 </div>
                                 <div className="footer__widget-info">
                                     <div className="footer__widget-address">
-                                        <p>Plot number 23, Bahria Greens 
-                                            Sector 1 Bahria Greens,Rawalpindi, pakistan</p>
+                                        <p>Address: 7 Barraberry Retreat, 
+                                           Canning Vale, WA 6155, Australia</p>
                                     </div>
                                     <div className="footer__widget-phone d-flex align-items-center">
                                         <i className="fa-solid fa-phone"></i>
                                         <p>
-                                            <Link href="tel:+0516142226">
-                                                <a>+051 6142226</a>
+                                            <Link href="tel:+61862613849">
+                                                <a>+61 8 6261 3849</a>
                                             </Link>
                                         </p>
                                     </div>
